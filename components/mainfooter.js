@@ -60,6 +60,20 @@ function Mainfooter() {
           </div>
         </div>
       </div>
+            <div className="container d-flex justify-content-between mt-3">
+        <div>
+          © 2020 Kynd Pty Ltd. All Rights Reserved.
+          <span>Terms of Use • Privacy Policy</span>
+        </div>
+        <div>
+          💛 For Your NDIS{" "}
+          <span>
+            <img src="./facebook.png" alt="face" />
+            <img src="./in.png" alt="face" />
+            <img src="./insta.png" alt="face" />
+          </span>
+        </div>
+      </div>
     </section>
   );
 }
