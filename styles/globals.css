@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.homepage {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  /* overflow-y: scroll; */
+
+  /* background: #fffefc; */
+}
+
+.bannerback {
+  width: 100%;
+  height: 563px;
+}
+
+.bannerdec {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: #fffefc;
+  margin-left: 6%;
+}
+
+.bannertitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffd100;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+
+.groupimage {
+  position: absolute;
+  width: 571px;
+  height: 467px;
+  left: 700px;
+  top: 150px;
+}
+
+.arrowspace {
+  margin-right: 13px;
+}
+.tryitfree {
+  position: relative;
+  width: 170px;
+  height: 58px;
+}
+.tryittext {
+  position: absolute;
+  color: #006b72;
+  top: 30%;
+  font-family: "Montserrat";
+  font-style: normal;
+  left: 30%;
+  font-weight: 600;
+  font-size: 16px;
+}
+.login {
+  position: absolute;
+  color: white;
+  top: 30%;
+  font-family: "Montserrat";
+  font-style: normal;
+  left: 35%;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* next section */
+.nextsection {
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+.verifiedtext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+.rightsupportext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+}
+.rightdec {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 32px;
+}
+.rightdec2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+}
+.marginfromtop {
+  margin-top: 24px;
+}
+.tryitfreebutton {
+  background: #006b72;
+  color: white;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 29px;
+  padding-right: 29px;
+  border-radius: 16px;
+}
+
+ul li {
+  width: 512px;
+  height: 87px;
+  margin-top: 20px;
+  border-radius: 32px;
+}
+.bannerwidth {
+  width: 40%;
+}
+.cardwh {
+  width: 300px;
+  height: 370px;
+}
+.workwithbutton {
+  background-color: #006b72;
+  border: none;
+  color: white;
+  padding-top: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 12px;
+  border-radius: 16px;
+}
+.iconsizes {
+  font-weight: 900;
+  font-size: 29px;
+}
+
+.newsicon {
+  width: 186.41px;
+  height: 50px;
+}
+.fontsweight {
+  font-weight: 600;
+}
+.liststyle {
+  padding: 0;
+  margin: 0;
+}
+.liststyle li {
+  list-style: none;
+  font-weight: 300;
+  height: 30px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.safetyimage {
+  width: 500px;
+  height: 400px;
+}
+.safetybutton {
+  border-color: #006b72;
+  border-radius: 13px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 8%;
+  padding-left: 8%;
+  color: #006b72;
+  font-weight: 600;
+}
+.supportbackground {
+  width: 100%;
+  height: 473px;
+  background-image: url("/Rectangle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.imagewidthis {
+  width: 70%;
+}
+.imageofparticipate {
+  width: 50%;
+}
+.participatedec {
+  margin-left: 40%;
+  font-size: 16px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+.cardPosition {
+  margin-top: -30%;
+}
+.faqwidth {
+  width: 75%;
+}
+.footerbackground {
+  margin-top: -10%;
+  width: 1400px;
+  height: 179px;
+  background-image: url("/footer.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainfooterbackground {
+  width: 1400px;
+  height: 400px;
+  background-image: url("/mainfooter.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fffefc;
+}
+.wholebottomborder {
+  border-bottom-style: solid;
+  border-color: #008594;
+}
+.perticularimageis {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bannertitle {
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .bannerdec {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .bannerwidth {
+    width: 100%;
+  }
+  .perticularimageis {
+    width: 75%;
+  }
+  .groupimage {
+    position: absolute;
+    width: 324px;
+    height: 266px;
+    left: 18px;
+    top: 323px;
+  }
+  .verifiedtext {
+    font-size: 18px;
+  }
+  .resimage {
+    width: 324px;
+    height: 348px;
+  }
+  .rightsupportext {
+    font-size: 26px;
+  }
+  .rightdecss {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+  }
+  .liststylesofright {
+    font-weight: 100;
+    font-size: 16px;
+  }
+  .rightdec2 {
+    font-weight: 100;
+  }
+  .tryitfreebutton {
+    width: 100%;
+  }
+  .widthformobile {
+    width: 100%;
+  }
+
+  ul li {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+  .iconwidth {
+    width: 40px;
+  }
+  .buttonclass {
+    text-align: center;
+    width: 100%;
+  }
+  .safetybutton {
+    width: 100%;
+  }
+  .supportbackground {
+    position: absolute;
+    left: 0px;
+    width: 360px;
+    height: 719px;
+    background-image: url("/supportmobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .centerthetext {
+    text-align: center;
+  }
+  .imagewidthis {
+    width: 30%;
+  }
+  .textswidth {
+    font-weight: 600;
+  }
+  .mfromtop {
+    position: relative;
+    top: 110%;
+  }
+  .imagebackres {
+    transform: scale(0.5);
+  }
+  .imageofparticipate {
+    width: 90%;
+  }
+  .minuswidth {
+    margin-top: -13%;
+  }
+  .participatedec {
+    margin-left: 0;
+    font-size: 16px;
+    word-spacing: 1px;
+    line-height: 30px;
+  }
+  .posabs {
+    text-align: center;
+    margin-top: -40%;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .fullwidths {
+    width: 100%;
+  }
+  .mfromtoptwo {
+    position: relative;
+    top: 220%;
+  }
+  .cardPosition {
+    margin-top: -250%;
+  }
+  .faqwidth {
+    text-align: center;
+    width: 100%;
+  }
+  .newsicon {
+    width: 120px;
+    height: 36px;
+  }
+  .footerbackground {
+    width: 360px;
+    height: 286px;
+    background-image: url("/footerimage.png");
+  }
+  .mainfooterbackground {
+    width: 360px;
+    height: 1041px;
+    background-image: url("/mobilefooter.png");
+  }
+  .footerlist li {
+    margin-top: 2%;
+  }
+  .bottomborder {
+    border-bottom-style: solid;
+    border-color: #008594;
+  }
+}
+
+.submenu {
+  position: absolute;
+  width: 40%;
+  opacity: 0;
+  height: auto !important;
+  background-color: #ffed9c;
+  z-index: 13;
+  border-radius: 32px;
+  animation: menu 0.3s ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes menu {
+  100% {
+    opacity: 1;
+  }
+}
+
+.submenu-box {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 50%;
+  top: -0.9rem;
+  transform: rotate(45deg);
+  background-color: #ffed9c;
+  z-index: 10;
+  opacity: 0;
+  animation: menu-box 0.27s ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes menu-box {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.submenu-items {
+  padding: 30px;
+  opacity: 0;
+  animation: menu-items 0.4s ease-in;
+  animation-fill-mode: forwards;
+  z-index: 13;
+}
+@keyframes menu-items {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
