@@ -278,6 +278,13 @@ ul li {
     left: 18px;
     top: 323px;
   }
+  .groupimage2 {
+    position: absolute;
+    width: 324px;
+    height: 266px;
+    left: 18px;
+    top: 323px;
+  }
   .verifiedtext {
     font-size: 18px;
   }
