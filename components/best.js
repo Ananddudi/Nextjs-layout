@@ -1,11 +1,17 @@
 import { GrLocation } from "react-icons/gr";
 function Best() {
   return (
-    <section className="d-flex flex-column justify-content-center align-items-center mt-5">
-      <header className="h1 d-none d-lg-block" style={{ fontWeight: 600 }}>
+    <section className="d-flex flex-column justify-content-center align-items-center mt-5 overflow-hidden">
+      <header
+        className="h1 d-none d-lg-block overflow-hidden"
+        style={{ fontWeight: 600 }}
+      >
         Work with only the best
       </header>
-      <header className="h1 text-center d-lg-none" style={{ fontWeight: 600 }}>
+      <header
+        className="h1 text-center d-lg-none overflow-hidden"
+        style={{ fontWeight: 600 }}
+      >
         Find the best people for you today
       </header>
       <div className="d-flex justify-content-around mt-5 w-lg-100 overflow-hidden">

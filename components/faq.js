@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsChevronRight, BsController } from "react-icons/bs";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
-import { UnmountClosed } from "react-collapse";
+import { UnmountClosed } from "./react-collapse/src/index";
 
 function Faq() {
   var [toggle, setToggle] = useState({

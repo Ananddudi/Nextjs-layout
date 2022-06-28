@@ -34,7 +34,7 @@ function Main() {
       {popup && (
         <div
           style={{ zIndex: 20 }}
-          className="d-flex justify-content-center align-items-center position-fixed w-100 h-100 bg-transparent"
+          className="d-none d-lg-flex justify-content-center align-items-center position-fixed w-100 h-100 bg-transparent"
         >
           <div className="bg-white popup">
             <div>
